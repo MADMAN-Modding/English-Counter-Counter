@@ -1,0 +1,48 @@
+html {
+    max-width: 1720px;
+}
+
+body {
+    background-color: burlywood;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h2 {
+
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+.top-info {
+    text-align: center;
+    padding-bottom: 20%;
+}
+
+.Linux {
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-radius: 10px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
+
+.Christmas {
+    margin-left: auto;
+    margin-right: auto;
+    border: 10px;
+    border-radius: 10px;
+    border-width:2px;
+    border-style:solid;
+    border-color:black;
+}
