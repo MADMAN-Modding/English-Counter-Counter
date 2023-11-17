@@ -25,5 +25,5 @@ window.onload = function main() {
 
     linux_Days = parseInt(linux_Days);
 
-    document.getElementById("Linux_days").innerHTML = linux_Days;
+    document.getElementById("linux_Days").innerHTML = linux_Days;
 }
