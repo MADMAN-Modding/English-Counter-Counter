@@ -1,7 +1,29 @@
-function Christmas () {
-    let christmas_Days;
+window.onload = function main() {
+    christmas_Days = 1703527200000 - Date.now();
 
-    getTime() = christmas_Days;
+    christmas_Days /= 1000;
 
-    document.getElementsById("christmas_Days") = "23";
+    christmas_Days /= 60;
+
+    christmas_Days /= 60;
+
+    christmas_Days /= 24;
+
+    christmas_Days = parseInt(christmas_Days);
+
+    document.getElementById("christmas_Days").innerHTML = christmas_Days;
+
+    linux_Days = Date.now() - 1700244000000;
+
+    linux_Days /= 1000;
+
+    linux_Days /= 60;
+
+    linux_Days /= 60;
+
+    linux_Days /= 24;
+
+    linux_Days = parseInt(linux_Days);
+
+    document.getElementById("Linux_days").innerHTML = linux_Days;
 }
