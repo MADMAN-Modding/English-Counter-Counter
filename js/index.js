@@ -26,4 +26,12 @@ window.onload = function main() {
     linux_Days = parseInt(linux_Days);
 
     document.getElementById("linux_Days").innerHTML = linux_Days;
+
+    thanksgiving_Days = Date.now() - 1700715600;
+
+    thanksgiving_Days /= 1000 /= 60 /= 60 /= 24;
+
+    thanksgiving_Days = parseInt(thanksgiving_Days);
+
+    document.getElementById("thanksgiving_Days").innerHTML = thanksgiving_Days;
 }

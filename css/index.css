@@ -24,17 +24,7 @@ h4 {
     padding-bottom: 40px;
 }
 
-.Linux {
-    margin-left: auto;
-    margin-right: auto;
-    border: 10px;
-    border-radius: 10px;
-    border-width:2px;
-    border-style:solid;
-    border-color:black;
-}
-
-.Christmas {
+.Linux, .Christmas, .Thanksgiving {
     margin-left: auto;
     margin-right: auto;
     border: 10px;
