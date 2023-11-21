@@ -12,7 +12,7 @@ function main() {
     document.getElementById("christmas_Days").innerHTML = christmas_Days;
 
     // Gets millis from the day it happened last
-    linux_Days = Date.now() - 1700244000000;
+    linux_Days = Date.now() - 1700542800000;
 
     // Millis to Date Conversion 86,400,000
     linux_Days /= 86400000;
