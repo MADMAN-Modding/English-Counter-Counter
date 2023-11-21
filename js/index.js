@@ -2,23 +2,17 @@ function main() {
     // Millis to Christmas
     christmas_Days = 1703527200000 - Date.now();
 
-    // Millis to Date Conversion 86,400,000
-    christmas_Days /= 86400000
-
-    // Rounds the Days Up
-    christmas_Days = Math.ceil(christmas_Days);
+   // Millis to Days for Christmas + Rounding 86,400,000
+    christmas_Days = Math.ceil(christmas_Days /= 86400000);
 
     // Edits the number in HTML
     document.getElementById("christmas_Days").innerHTML = christmas_Days;
 
-    // Gets millis from the day it happened last
+    // Gets millis from the day Linux was mentioned
     linux_Days = Date.now() - 1700542800000;
 
-    // Millis to Date Conversion 86,400,000
-    linux_Days /= 86400000;
-
     // Rounds the Day Down
-    linux_Days = Math.floor(linux_Days);
+    linux_Days = Math.floor(linux_Days /= 86400000);
 
     // Edits the number in HTML
     document.getElementById("linux_Days").innerHTML = linux_Days;
@@ -26,12 +20,17 @@ function main() {
     // Millis to Thanksgiving
     thanksgiving_Days = 1700697600000 - Date.now();
 
-    // Millis to Date Conversion 86,400,000
-    thanksgiving_Days /= 86400000
-
-    // Rounds Days Up
-    thanksgiving_Days = Math.ceil(thanksgiving_Days)
+    // Millis to Days for Thanksgiving + Rounding 86,400,000
+    thanksgiving_Days = Math.ceil(thanksgiving_Days /= 86400000);
 
     // Edits the number in HTML
     document.getElementById("thanksgiving_Days").innerHTML = thanksgiving_Days;
+
+    // Millis to Halloween
+    halloween_Days = 1730347200000 - Date.now();
+
+    // Millis to Days for Halloween + Rounding 86,400,000
+    halloween_Days = Math.ceil(halloween_Days /= 86400000)
+
+    document.getElementById("halloween_Days").innerHTML = halloween_Days;
 }
