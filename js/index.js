@@ -1,5 +1,5 @@
 function main() {
-    // Millis to December
+    // Millis to Christmas
     christmas_Days = 1703527200000 - Date.now();
 
     // Millis to Date Conversion 86,400,000
