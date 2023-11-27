@@ -18,7 +18,7 @@ function main() {
     document.getElementById("linux_Days").innerHTML = linux_Days;
 
     // Millis to Thanksgiving
-    thanksgiving_Days = 1700697600000 - Date.now();
+    thanksgiving_Days = 1732752000000 - Date.now();
 
     // Millis to Days for Thanksgiving + Rounding 86,400,000
     thanksgiving_Days = Math.ceil(thanksgiving_Days /= 86400000);
