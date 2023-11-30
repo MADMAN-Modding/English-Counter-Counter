@@ -9,7 +9,7 @@ function main() {
     document.getElementById("christmas_Days").innerHTML = christmas_Days;
 
     // Gets millis from the day Linux was mentioned
-    linux_Days = Date.now() - 1700542800000;
+    linux_Days = Date.now() - 1701302400000;
 
     // Rounds the Day Down
     linux_Days = Math.floor(linux_Days /= 86400000);
