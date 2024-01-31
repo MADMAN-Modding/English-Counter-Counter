@@ -1,6 +1,6 @@
 function main() {
     // Millis to Christmas
-    christmas_Days = 1703527200000 - Date.now();
+    christmas_Days = 1735084800000 - Date.now();
 
    // Millis to Days for Christmas + Rounding 86,400,000
     christmas_Days = Math.ceil(christmas_Days /= 86400000);
